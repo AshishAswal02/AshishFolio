@@ -1,0 +1,50 @@
+header {
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header-container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+.actions {
+    margin: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;  
+}
+
+.my-image {
+background: linear-gradient(grey, transparent);
+width: 22rem;
+height: 40rem;
+display: flex;
+justify-content: center;
+align-items: center;
+display: block;
+margin: auto;
+border-radius: 12rem 12rem 0 0;
+overflow: hidden;
+}
+
+/* @media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header-socials{
+        display: none;
+    }
+} */
