@@ -2,10 +2,10 @@ import { useState } from 'react'
 import './index.css'
 import { useEffect } from 'react';
 
-const Testimonials = () => {
+const Additionals = () => {
 
   const [numSets, setNumSets] = useState(1);
-  const [counts, setCounts] = useState(Array(numSets).fill(0));
+  const [counts, setCounts] = useState(Array(numSets ? numSets : 1).fill(0));
 
   const handleButtonClick = (val, i) => {
     setCounts(prev => {
@@ -15,8 +15,13 @@ const Testimonials = () => {
     })
   }
 
+  const handleInput = (e) => {
+    const num = parseInt(e.target.value);
+    // if (num)
+      setNumSets(num)
+  }
 
-  useEffect(() => setCounts(Array(numSets).fill(0)), [numSets]);
+  useEffect(() => setCounts(Array(numSets ? numSets : 1).fill(0)), [numSets]);
 
   const generateButtonSets = () => {
     const buttonSets = [];
@@ -34,7 +39,7 @@ const Testimonials = () => {
 
   return (
     <section>
-      <input type="number" min={1} value={numSets} onChange={e => setNumSets(parseInt(e.target.value))} />
+      <input type="number" min={1} value={numSets ? numSets : 0} onChange={e => handleInput(e)} />
       <div>{generateButtonSets()}</div>
     </section>
   )
@@ -43,4 +48,4 @@ const Testimonials = () => {
 
 }
 
-export default Testimonials
+export default Additionals

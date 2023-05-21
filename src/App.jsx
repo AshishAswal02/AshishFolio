@@ -8,23 +8,21 @@ import Header from './components/header'
 import Navbar from './components/navbar'
 import Folio from './components/folio'
 import Footer from './components/footer'
-import Testimonials from './components/testimonials'
+// import Additionals from './components/additionals'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-        {/*<Header />
+        <Header />
          <Navbar />
         <About />
-        <Experience />*/}
-        {/* <Folio />  */}
-        
+        <Experience />
+        <Folio /> 
          <Contact />
-        {/* <Testimonials />
-        <Footer /> */}
+        {/* <Additionals /> */}
+        <Footer /> 
     </div>
   )
 }

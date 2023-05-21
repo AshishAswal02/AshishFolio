@@ -1,9 +1,9 @@
 .container.contact-container {
+  gap: 12%;
   width: 58%;
+  margin: 1rem;
   display: grid;
   grid-template-columns: 30% 58%;
-  gap: 12%;
-  margin: 1rem;
 }
 
 .contacts {
@@ -35,6 +35,7 @@
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+  color: antiquewhite;
 }
 
 .form {
@@ -48,8 +49,8 @@ textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 1%;
-  background: var(--color-light);
   border: 2px solid var(--color-primary-variant);
+  /* background: var(--color-light); */
   resize: none;
   color: black;
 }

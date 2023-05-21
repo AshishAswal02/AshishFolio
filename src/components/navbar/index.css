@@ -23,6 +23,13 @@ nav a {
 }
 
 nav a.active {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.20);
     color: var(--color-white);
+}
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 80%;
+    }
 }
