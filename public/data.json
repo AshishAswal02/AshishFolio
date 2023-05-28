@@ -3,25 +3,25 @@
     "data" : [
     {
       "id": 1,
-      "image": "src/assets/findImage.png",
+      "image": "/assets/findImage.png",
       "link": "https://ashishaswal02.github.io/search-gallery/",
       "desc": "An image searching web app that allows users to search for images based on keywords, tags, or other metadata. The user can then click on an image to download it."
     },
     {
       "id": 2,
-      "image": "src/assets/filtry.png",
+      "image": "/assets/filtry.png",
       "link": "https://filtery.netlify.app/",
       "desc": "A filtering web responsive app which suggest restaurants and places which user can visit. Filtering can be done on the basis of category, price, cuisines and star rating of that area. Optimization techniques are used such as debouncing."
     },
     {
       "id": 3,
-      "image": "src/assets/menu.png",
+      "image": "/assets/menu.png",
       "link": "https://menu-at.netlify.app/",
       "desc": "A menu providing website where a person can select the food of his category. By default all food categories will be shown but person can filter the food based on his choice."
     },
     {
       "id": 4,
-      "image": "src/assets/shades.png",
+      "image": "/assets/shades.png",
       "link": "https://shades-generator-at.netlify.app/",
       "desc": "A color suggesting website which can suggest different shades of any color. It accept different formats for a color. You can copy the shade you like."
     }
