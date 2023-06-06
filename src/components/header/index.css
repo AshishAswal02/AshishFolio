@@ -1,3 +1,5 @@
+
+
 header {
     padding-top: 7rem;
     overflow: hidden;
@@ -24,6 +26,10 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;  
+}
+
+a {
+    font-size: x-large;
 }
 
 .my-image {

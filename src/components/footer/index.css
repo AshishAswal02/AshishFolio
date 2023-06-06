@@ -4,10 +4,11 @@
     text-align: center;
     font-size: 1rem;
     margin-top: 7rem;
+    border-radius: 55px 55px 0 0;
  }
 
  footer a{
-    color: var(--color-bg);
+    color: var(--color-white);
  }
  
  .scroll-to-top{
@@ -18,7 +19,7 @@
  }
 
  .jumpers {
-    display: felx;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
@@ -41,13 +42,11 @@
     border: 1px solid transparent;
  }
 
- .socials a{
-background: transparent;
-color: var(--color-bg );
+ .socials a:hover{
 border-color: var(--color-bg); 
 }
 
 .copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: var(--color-white);
 }

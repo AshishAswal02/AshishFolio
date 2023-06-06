@@ -15,7 +15,7 @@
 }
 
 .item:hover {
-    border-radius: var(--color-primary-variant);
+    border: 1px solid black;
     background: transparent;
 }
 

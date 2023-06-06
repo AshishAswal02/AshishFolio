@@ -25,8 +25,8 @@ const About = () => {
             <article className="card">
               <BsBuildingFillCheck className='about-icon' />
               <h5>Companies</h5>
-              <small>Trantor</small>
-              <small>Infosys  </small>
+              <small>Trantor</small>&nbsp;
+              <small>Infosys</small>
             </article>
             <article className="card">
               <MdGames className='about-icon' />
@@ -35,7 +35,12 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, excepturi voluptatibus temporibus qui blanditiis ut aliquid molestiae suscipit soluta sint accusamus nemo pariatur, nam ea asperiores doloremque aperiam? Perferendis, dolores.</p>
+          <div class="desc">
+            <p> I have 3.5 years of experience in developing web applications with React, NextJs, Context API, Redux, JS and other react evnironment libraries like  MUI, Redux, TS, Jest, GIT, Jenkins.
+            </p>
+            <p>	I am committed to delivering high-quality code and ensuring that my applications are fast, responsive, and accessible to all users.
+            </p>
+          </div>
           <a href="#contact" className='btn btn-primary'> Let's talk</a>
         </div>
       </div>
